@@ -7,19 +7,19 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "16201655"))
-API_HASH = getenv("API_HASH", "440ba807d2cdf696ca498d441e2a6b29")
-BOT_TOKEN = getenv("BOT_TOKEN", "5887844944:AAF9XMi5pTudOnRJ9vheorM4XiX2-s-1GNA")
+API_ID = int(getenv("API_ID", "10219736"))
+API_HASH = getenv("API_HASH", "4da3796688dfa6130bbd65fdc7e74f46")
+BOT_TOKEN = getenv("BOT_TOKEN", "5633070223:AAFyE0KbmYmg0y2vDvaZ0O3cDq8-DSndouw")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001898635671"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", " ˹𝑰𝒏𝒗𝒊𝒔𝒊𝒃𝒍𝒆 𝑪𝒚𝒃𝒆𝒓 𝑩𝒖𝒄𝒌 ℳ𝓾𝓼𝓲c͢˼ ")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1001858136633"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", " ˹ 𝙀𝙇𝙇𝙄𝙀'𝙎 ℳ𝓾𝓼𝓲c͢ 𝙒𝙊𝙍𝙇𝘿˼ ")
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5418555215").split())
+    map(int, getenv("OWNER_ID", "5145460445").split())
 )
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/invisiblesecuritycyberbuck")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/invisiblesecuritycyberbuckchat")
+    "SUPPORT_GROUP", "https://t.me/+Uv-mlXFUN_FkMWI9")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "59006")
@@ -54,7 +54,7 @@ PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", "False")
 YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/ll_ll_LegendHacker_IN_ll_ll")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/M_r_invisible_official")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
@@ -75,7 +75,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 
 
-STRING1 = getenv("STRING_SESSION", "BQAckfcDRoCWj0QfOxEjIBthZnTlorcxzClM8PIyChqAA-pzgUF3eBOUXKH3g6dxS8hfNOPH9blmZjyGCZbYJMjMad-d8Tjv6Alht8cK0EeyhnNLrqUu-cKoIQy9Ixde5N6dn7o-v5tYABkHM5soT-_y7AjeQWWvuK5bIcAF54T-2xnA6AXuBjFa_DtvwJstbHt57bjPe6L4yztQxkVFQ8O2vJI6SuU-zZ3Hsifk7nn8OOBxQmbyGj_Mxe5qilWQG_U9M0kxWyftqow3ZMmfCDU4P3GaKWC-4oIWawzbowOsw97AVG4bx_1fTSH3Wl6viGbGLLYmYC0RvbpJzHsCNWj1AAAAAT073asA")
+STRING1 = getenv("STRING_SESSION", "BQCEHMllXBNhIgWzsxyIoxsaI7Lv2QEZSfN4P8V9UEqixbgq_i1sIjYne6GkNFwDcYnnWUr3vs7S4uhMAuGNdTomHgfTWl-2S3JFYw4thOyw0LAk2RekLlWSx135pvjWIXY2WVgmJRwk100732pYJWdq2Xi3I244cn7yeARtjss0--6Kdl_vi46gaEkY-9dwNSfKaaFjadonWFg-pAxjNPg8S3xNhl7Q05zIQ0M7AVPiy5fRslTCG4l13C5rdmFepvUSSrqQ7uLYB4FJL8KEabMh5t63mS3eN4xDGozKtOh7alehZ4eqdOgkMXkVe29hlk8kZZKyEQwoKoVlfedblrAJAAAAATLILBgA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -93,41 +93,41 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/dd547383e5e97344161b1.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg",
+    "https://te.legra.ph/file/dd547383e5e97344161b1.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg",
+    "https://te.legra.ph/file/dd547383e5e97344161b1.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg",
+    "https://te.legra.ph/file/dd547383e5e97344161b1.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg",
+    "https://te.legra.ph/file/dd547383e5e97344161b1.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg",
+    "https://te.legra.ph/file/dd547383e5e97344161b1.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg",
+    "https://te.legra.ph/file/dd547383e5e97344161b1.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://te.legra.ph/file/67e9dce2e1523ad11df9d.jpg",
+    "https://te.legra.ph/file/dd547383e5e97344161b1.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
